@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jornal Escolar Dom Edu</title>
+  <meta name="description" content="Site oficial do Jornal Escolar Dom Edu – notícias, esportes, eventos e informações da E.E. Dom Eduardo Milad Koik." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header>
+  <h1>Jornal Escolar Dom Edu</h1>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="sobre.html">História</a>
+    <a href="noticias.html">Notícias</a>
+    <a href="esportes.html">Esportes</a>
+    <a href="eventos.html">Eventos</a>
+    <a href="agenda.html">Agenda</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+</header>
+
+<main>
+  <section class="card">
+    <h2>Bem-vindo ao Jornal Escolar Dom Edu</h2>
+    <p>O canal oficial de informações da E.E. Dom Eduardo Milad Koik – notícias, eventos, conquistas e comunicação direta com a comunidade escolar.</p>
+  </section>
+
+  <section class="card">
+    <h3>Últimas Notícias</h3>
+    <ul>
+      <li><a href="noticias.html">Veja todas as matérias publicadas →</a></li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h3>Seções do Jornal</h3>
+    <ul>
+      <li><a href="esportes.html">⚽ Esportes</a></li>
+      <li><a href="eventos.html">📅 Eventos</a></li>
+      <li><a href="agenda.html">🗓️ Agenda Escolar</a></li>
+      <li><a href="noticias.html">📰 Notícias Gerais</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  © <span id="ano"></span> Jornal Escolar Dom Edu — Projeto Escola Informada
+</footer>
+
+<script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+</body>
+</html>
